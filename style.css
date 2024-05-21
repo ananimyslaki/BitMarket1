@@ -1,0 +1,207 @@
+body {
+    font-family: sans-serif;
+    background-color: black;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.button {
+    background-color: #36bbce;
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+    font-size: 24px;
+    border-radius: 10px;
+    display: block;
+}
+
+nav {
+    border-top: 5px solid white;
+    border-bottom: 5px solid white;
+    padding: 25px 100px 25px 95px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-link {
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 36px;
+    margin-top: 45px;
+    margin-bottom: 40px;
+}
+
+.post-text {
+    font-size: 24px;
+}
+
+.info {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.post {
+    background-color: white;
+    padding: 15px 45px 30px 45px;
+    width: 400px;
+    margin: 20px;
+    position: relative;
+}
+
+.article-but {
+    text-decoration: none;
+    background-color: #133aac;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    padding: 10px 75px 10px 75px;
+    display: block;
+}
+
+.full-image {
+    margin: 100px 0px 100px 0px;
+}
+
+.social {
+    display: block;
+    width: 30px;
+}
+
+footer {
+    background-color: white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 30px 30px 20px 45px;
+}
+
+.footer-text {
+    font-size: 24px;
+    margin-right: 30px;
+}
+
+.footer-text span {
+    color: #850AE5;
+    font-weight: bolder;
+}
+
+.prom {
+    position:fixed;
+    background-color: rgb(80, 0, 145);
+    right:0px;
+    top: 250px;
+    width:125px;
+    border:3px solid rgb(80, 0, 145);
+    border-radius: 15px;
+    padding:10px;
+    height:350px;
+    color:white;
+    font-size:20px;
+}
+
+.prom img {
+    width:60px;
+    height:60px;
+    margin-top:150px;
+    margin-right:30px;
+}
+
+.hit {
+    position:absolute;
+    width:200px;
+    top: -40px;
+    right: 400px;
+}
+
+h1::before {
+    content: url(https://i.ibb.co/27tHvxw/Vector-1-1.png);
+    display: inline;
+}
+
+h1::after {
+    content: url(https://i.ibb.co/27tHvxw/Vector-1-1.png);
+    display: inline;
+}
+
+.footer-text0 {
+    font-size: 24px;
+    margin-right: 30px;
+}
+
+.footer-text0 span {
+    color: #850AE5;
+    font-weight: bolder;
+}
+
+.footer-text0::before {
+    content: url(https://i.ibb.co/8XFgfVZ/Group-1-5.png);
+    display: inline;
+    height: 15px;
+}
+
+.footer-text::before {
+    content: url(https://i.ibb.co/MhfjYvX/Vector-1-5.png);
+    display: inline;
+    height: 15px;
+}
+
+.nav-link:hover {
+    color: #850AE5;
+}
+
+.nav-link:focus {
+    color:#960dff;
+}
+
+.button:hover {
+    background-color:#00ddff;
+    border:7px #36bbce double;
+}
+
+.button:focus {
+    background-color: #44e6ff;
+    border:7px #3dcfe6 double;
+}
+
+.article-but:hover {
+    background-color: #1f4eda;
+    border:#133aac 3px dotted;
+}
+
+.prom img:hover {
+    border: 3px #960dff dotted;
+}
+
+.post:hover {
+    font-weight: bolder;
+    font-style: italic;
+}
+
+.hit:hover {
+    opacity: 0.5;
+}
+
+h1:hover::before {
+    content: url(https://i.ibb.co/KX7hr57/Vector-1-6.png);
+    display: inline;
+}
+
+h1:hover::after {
+    content: url(https://i.ibb.co/KX7hr57/Vector-1-6.png);
+    display: inline;
+}
